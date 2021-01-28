@@ -1,0 +1,231 @@
+body,html{
+	height: 100%;
+	margin : 0px;
+}
+
+#main_title{
+	background-color: rgb(0,0,0,0.17)
+	
+}
+
+#main{
+	padding: 20px;
+  font-family: sans-serif;
+  background: linear-gradient(40deg,#f5f7fa , #c3cfe2);
+  background-attachment:fixed;
+  height:100%;
+
+	display : flex;
+	flex-direction : column;
+}
+
+#calories_check{
+	margin-top: 35px;
+	min-height:67px;
+}
+
+
+#my_option{
+	height: 24px;
+}
+
+.nutri_info{
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+	height : 26px;
+	padding-left: 10px;
+	padding-top : 12px;
+	background-color : rgb(0,0,0,0.16);
+	margin : 16px;
+}
+
+.measure{
+	border:hidden;
+    height : 30px;
+    padding-left:10px;
+    border-radius : 10px;
+    margin-right : 10px;
+     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+}
+
+#my_option{
+	border : none;
+    height : 29px;
+    padding-left : 5px;
+	border-radius : 10px;
+	background-color: rgb(0,0,0,0);
+	 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+}
+
+#my_option:focus{
+	outline:none;
+}
+
+button{
+	border : none;
+	height : 32px;
+	border-radius : 10px;
+	width :65px ;
+	background: #03dac5de;
+	 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.measure:focus{
+	outline:none;
+} 
+
+#weight{
+	height:40px;
+}
+
+
+#selection{
+	display: flex;
+	height: 49px;
+}
+
+#footer{
+	position: fixed;
+	bottom:0;
+}
+
+#display_nutrients{
+	padding-top : 10px;
+
+	heigth : 310px;
+	padding-bottom:10px;
+}
+
+@media screen and (min-width:473px){
+
+.display_h1{
+	height:17px;
+	padding-top:12px;
+	font-size:28px;
+}
+
+.box{
+/* 	height : 100px; */
+	padding-left : 20px;
+	margin : 20px;
+	  font-size: 20px;
+	  border: none;
+	  border-radius: 10px;
+	  background: rgb(0,0,0,0.16);
+	  color: white;
+	 /* padding: 10px;
+	  margin: 20px;*/
+/* 	  min-width: 100px; */
+	  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+	
+}
+
+.para{
+	align-items:left;
+	padding-left : 10px; 
+	padding-right : 10px; 
+	font-size: 19px;
+	padding-bottom: 10px;
+}
+
+#meal{
+	font-style : italic;
+	padding-top : 15px;
+	border-radius : 10px;
+	font-size:27px;
+	text-align : center;
+	margin-left:25px;
+	margin-right:25px;
+	padding-bottom : 18px;
+	color:white;
+	font-weight:bold;
+	 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+    background-color:rgb(0, 1, 0,0.2);
+	height : 30px;
+}
+
+#condition{
+	
+	border-radius:10px;
+	margin :20px;
+    color : white;
+	font-weight : bold;
+	font-style : italic;
+	padding-top: 15px;
+	padding-left : 19px;
+	height:42px;
+	font-size : 23px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 10);
+}
+
+
+}
+
+@media screen and (max-width:471px){
+
+
+.display_h1{
+	height:12px;
+	padding-top:12px;
+	font-size:21px;
+	padding-bottom:5px;
+}
+
+.box{
+/* 	height : 112px; */
+	padding-left : 20px;
+	margin : 20px;
+	  font-size: 12px;
+	  border: none;
+	  border-radius: 10px;
+	  background: rgb(0,0,0,0.16);
+	  color: white;
+	 /* padding: 10px;
+	  margin: 20px;*/
+/* 	  min-width: 100px; */
+	  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+	
+}
+
+.para{
+	align-items:left;
+	padding-top : 8px;
+	padding-left : 15px; 
+	padding-right : 7px; 
+	font-size: 17px;
+	padding-bottom  :15px;
+}
+
+#meal{
+	font-style : italic;
+	padding-top : 15px;
+	border-radius : 10px;
+	font-size:21px;
+	text-align : center;
+	margin-left:25px;
+	margin-right:25px;
+	padding-bottom : 18px;
+	color:white;
+	font-weight:bold;
+	 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+    background-color:rgb(0, 1, 0,0.2);
+	
+}
+
+#condition{
+	
+	border-radius:10px;
+	margin :20px;
+    color : white;
+	font-weight : bold;
+	font-style : italic;
+	padding-top: 15px;
+	padding-left : 19px;
+	height:30px;
+	font-size : 17px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 10);
+}
+
+
+}

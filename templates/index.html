@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Workout</title>
+<style>
+    .main {
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%);
+    }
+
+    button {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+</style>
+{% endblock %}
+{% block body %}
+<div class="main">
+    <a href="/workout"><button>Workout</button></a>
+    <a href="/diet"><button>Diet</button></a>
+    <a href="/covid"><button>Covid Test</button></a>
+</div>
+
+
+{% endblock %}

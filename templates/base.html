@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/nav_style.css') }}" />
+    {% block head %} {% endblock %}
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light navbarcustom">
+        <a href="/"><img src="{{ url_for('static',filename='logo.png') }}" alt="logo" border="2"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="/workout" class="nav-item nav-link"> Workout</a>
+                <a href="/diet" class="nav-item nav-link">Diet</a>
+                <a href="/covid" class="nav-item nav-link">Covid-19 Test</a>
+                <a href="#" class="nav-item nav-link disabled" tabindex="-1"></a>
+            </div>
+        </div>
+    </nav>
+    {% block body %}
+    {% endblock %}
+</body>
+
+</html>

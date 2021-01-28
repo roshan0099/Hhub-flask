@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+body {
+  padding:0 !important;
+  margin:0;
+  font-family: sans-serif;
+  background: linear-gradient(40deg, #f5f7fa, #c3cfe2);
+  background-attachment: fixed;
+  height: 100%;
+}
+.onework {
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:10px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background: rgba(240, 240, 240, 0.5);
+  margin-top: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.onehead {
+  color: black;
+}
+.onework p {
+  color: rgb(48, 48, 48) !important;
+}
+input[name="height"] {
+  width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background: rgba(240, 240, 240, 0.5);
+  margin-top: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+input[name="weight"] {
+  width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background: rgba(240, 240, 240, 0.5);
+  margin-top: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+input[name="age"] {
+  width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background: rgba(240, 240, 240, 0.5);
+  margin-top: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+input[name="submit"] {
+  width: 10%;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #03dac5de;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  min-width: 100px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+select[name="lifestyle"] {
+  width: 20%;
+  padding: 8px;
+  border-radius: 15px;
+  border: none;
+  background: rgba(240, 240, 240, 0.5);
+  margin-top: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  min-width:200px;
+}
+select[name="gender"] {
+  width: 20%;
+  padding: 8px;
+  border-radius: 15px;
+  border: none;
+  background: rgba(240, 240, 240, 0.5);
+  margin-top: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  min-width:200px;
+}
+.workopt {
+  width: 10%;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #03dac5de;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  min-width: 80px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.calorieintake{
+  width: 90%;
+  margin-left:10%;
+  margin-right:10%;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #03dac5de;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  min-width: 80px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.calorieintake p{
+    line-height: 30px;
+}
+.navbar-nav a{
+  padding-left:10px !important;
+}
+.nav-item{
+  padding-left:20px !important;
+}

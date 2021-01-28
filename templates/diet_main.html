@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Workout</title>
+<!-- <link rel="stylesheet" href="{{ url_for('static',filename='css/post.css') }}" /> -->
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/diet_style.css')}}">
+{% endblock %}
+{% block body %}
+
+<div id="main">
+	<form method="POST" action="#">
+
+		<div id="selection">
+			<div id="height_measurment">
+				<input class="measure" type="number" name="height" placeholder="Enter your height.." required>
+			</div>
+			<select id="my_option">
+				<option id="cm" value="cm" selected>cm</option>
+				<option id="feet" value="feet">feet-inch</option>
+			</select>
+
+		</div>
+		<div id="weight">
+			<input class="measure" type="number" name="weight" placeholder="Weight in Kg" required>
+			<button name="submit" value="Submit">Submit</button>
+		</div>
+	</form>
+	<div id="display"></div>
+
+	<div id="calories_check">
+		<input class="measure" type="text" id="calories" placeholder="check nutrients" required>
+		<button id="check">check</button>
+		<div id="display_nutrients"></div>
+
+	</div>
+</div>
+<script>
+	var infos = {{ data| tojson}}
+
+</script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/diet_script.js')}}"></script>
+{% endblock %}
