@@ -1,6 +1,6 @@
 from flask import *
 from tensorflow.keras.models import load_model
-from flask import Flask , render_template , request, redirect,jsonify
+from flask import Flask , render_template , request, redirect,jsonify,send_from_directory
 from bmi import Meal_bmi
 from calories_check import req
 import json
@@ -137,6 +137,13 @@ def calories(name):
 	}
 
 	return json.dumps(data["inna"])
+
+
+@app.route('/favicon.ico')
+def fav():
+    return send_from_directory(os.path.join(app.root_path, 'static'),'favicon.ico')
+
+
 
 
 if __name__ == "__main__":
