@@ -6,7 +6,7 @@ from calories_check import req
 import json
 import cv2
 import numpy as np
-import pandas as pd
+# import pandas as pd
 
 
 app = Flask(__name__)
