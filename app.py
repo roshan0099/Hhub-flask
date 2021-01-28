@@ -6,6 +6,7 @@ from calories_check import req
 import json
 import cv2
 import numpy as np
+import os
 # import pandas as pd
 
 
@@ -140,9 +141,9 @@ def calories(name):
 	return json.dumps(data["inna"])
 
 
-# @app.route('/favicon.ico')
-# def fav():
-#     return send_from_directory(os.path.join(app.root_path, 'static'),'favicon.ico')
+@app.route('/favicon.ico')
+def fav():
+    return send_from_directory(os.path.join(app.root_path, 'static'),'favicon.ico')
 
 
 
