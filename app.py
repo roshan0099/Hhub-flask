@@ -1,12 +1,12 @@
 from flask import *
-from tensorflow.keras.models import load_model
+# from tensorflow.keras.models import load_model
 from flask import Flask , render_template , request, redirect,jsonify,send_from_directory
 from bmi import Meal_bmi
 from calories_check import req
 import json
-import cv2
-import numpy as np
-import os
+# import cv2
+# import numpy as np
+# import os
 # import pandas as pd
 
 
