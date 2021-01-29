@@ -1,5 +1,5 @@
 import requests
-
+import os
 
 def req(queries) :
 	api_url = 'https://api.calorieninjas.com/v1/nutrition?query='

@@ -1,6 +1,6 @@
 from pymongo import MongoClient 
 import random
-# import os
+import os
 
 
 class Meal_bmi :
