@@ -8,7 +8,7 @@ class Meal_bmi :
 	def __init__(self) :
 
 		#connecting to db
-		self.client = MongoClient('mongodb+srv://roshan:mrk0099mrk@cluster0.al8qd.mongodb.net/checking?retryWrites=true&w=majority')
+		self.client = MongoClient()
 		self.db = self.client["checking"]
 
 		self.collection = self.db["diet"]
